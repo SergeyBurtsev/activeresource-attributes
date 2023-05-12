@@ -1,5 +1,5 @@
 require "minitest/autorun"
-require "active_resource_attributes"
+require "activeresource-attributes"
 
 class ActiveResourceAttributesTest < Minitest::Test
   class Person < ActiveResource::Base
@@ -17,7 +17,6 @@ class ActiveResourceAttributesTest < Minitest::Test
 
   def test_attributes
     person = Person.new
-    binding.irb
     person.integer_field = "2.3"
     person.string_field = "Rails FTW"
     person.float_field = "12.3"
