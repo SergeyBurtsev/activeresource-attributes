@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.description   = "This ActiveResource extension which integrates ActiveModel::Attributes for type casting and default values."
   s.license       = "MIT"
 
-  s.files         = ["lib/active_resource_attributes.rb"]
+  s.files         = ["lib/activeresource-attributes.rb"]
   s.require_paths = ["lib"]
 
   s.add_runtime_dependency "activeresource", ">= 5.0"
