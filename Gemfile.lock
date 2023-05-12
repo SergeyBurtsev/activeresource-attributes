@@ -1,0 +1,41 @@
+PATH
+  remote: .
+  specs:
+    activeresource-attributes (0.0.0)
+      activemodel (>= 5.2)
+      activeresource
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    activemodel (7.0.4.3)
+      activesupport (= 7.0.4.3)
+    activemodel-serializers-xml (1.0.2)
+      activemodel (> 5.x)
+      activesupport (> 5.x)
+      builder (~> 3.1)
+    activeresource (6.0.0)
+      activemodel (>= 6.0)
+      activemodel-serializers-xml (~> 1.0)
+      activesupport (>= 6.0)
+    activesupport (7.0.4.3)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
+    builder (3.2.4)
+    concurrent-ruby (1.2.2)
+    i18n (1.13.0)
+      concurrent-ruby (~> 1.0)
+    minitest (5.18.0)
+    tzinfo (2.0.6)
+      concurrent-ruby (~> 1.0)
+
+PLATFORMS
+  arm64-darwin-22
+
+DEPENDENCIES
+  activeresource-attributes!
+
+BUNDLED WITH
+   2.4.12
