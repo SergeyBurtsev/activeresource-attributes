@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name          = "activeresource-attributes"
-  s.version       = "0.0.2"
+  s.version       = "0.0.3"
   s.authors       = ["Sergey Burtsev"]
   s.email         = "sergey@burtsev.com"
   s.homepage      = "https://github.com/SergeyBurtsev/activeresource-attributes"
